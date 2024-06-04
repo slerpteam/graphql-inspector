@@ -130,6 +130,7 @@ export async function run() {
 
   core.info(`Endpoint: ${endpoint}`);
   core.info(`isOldSchemaUrl: ${isOldSchemaUrl}`);
+  core.info(`another: "Test"`);
 
   const [oldFile, newFile] = await Promise.all([
     isOldSchemaUrl
