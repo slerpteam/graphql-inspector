@@ -16,7 +16,7 @@ import { castToBoolean, getInputAsArray, resolveRule } from './utils.js';
 const CHECK_NAME = 'GraphQL Inspector';
 
 export async function run() {
-  core.info(`GraphQL Inspector started`);
+  core.info(`GraphQL Inspector slerp started`);
 
   // env
   let ref = process.env.GITHUB_SHA!;
